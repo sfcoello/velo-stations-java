@@ -15,5 +15,10 @@ import org.springframework.data.mongodb.core.mapping.Field;
     private Double latitude;
     private Double longitude;
     private String name;
+    @Field("empty_slots")
+    private String emptySlots;
+    @Field("free_bikes")
+    private String freeBikes;
+    private Extra extra;
 
 }
